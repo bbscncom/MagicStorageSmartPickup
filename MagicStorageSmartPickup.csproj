@@ -1,0 +1,17 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+  <Import Project="../tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>MagicStorageSmartPickup</AssemblyName>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+	<ItemGroup>
+		<Reference Include="MagicStorage">
+			<HintPath>..\MagicStorage.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>

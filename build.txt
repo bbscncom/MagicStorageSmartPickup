@@ -1,0 +1,10 @@
+displayName = MagicStorageSmartPickup
+author = bbscncom
+version = 0.1
+#dllReferences = E:\program\gitRepository\javaproject\tmod\MagicStorage\MagicStorage
+
+hideCode = false
+hideResources = false
+includeSource = true
+includePDB = true
+modReferences = MagicStorage
